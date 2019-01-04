@@ -1,6 +1,7 @@
 import cv2
 import random
 
+
 class FrameTracker:
     def __init__(self, video_path, count_manual=False):
         self.video_path = video_path
